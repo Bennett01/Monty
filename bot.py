@@ -1,8 +1,6 @@
 from discord.ext import commands
 import discord
 import asyncio
-import random
-import json
 import logging #imports Discord.py logging module
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
