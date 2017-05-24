@@ -1,7 +1,6 @@
 from discord.ext import commands
-import discord
-import asyncio
-import logging #imports Discord.py logging module
+import discord, logging
+
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w') #Writes log to file Discord.log
