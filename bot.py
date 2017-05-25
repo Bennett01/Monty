@@ -32,5 +32,6 @@ with open('secrets') as f:
 bot.load_extension('cogs.test')
 bot.load_extension('cogs.quotes')
 bot.load_extension('cogs.graphing')
+bot.load_extension('cogs.internet')
 
 bot.run(secret)
